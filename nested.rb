@@ -61,7 +61,7 @@ end
 alan_kay_is_known_for
 
 def adding_matz
-programmer_hash[:yukihiro_matsumoto] = {
+  programmer_hash[:yukihiro_matsumoto] = {
     known_for: "Ruby",
     languages:
       ["LISP", "C"]
@@ -70,7 +70,7 @@ programmer_hash[:yukihiro_matsumoto] = {
 end
 programmer_hash
 
-	programmer_hash = 
+	#programmer_hash = 
  		{
         :grace_hopper => {
           :known_for => "COBOL",
@@ -130,3 +130,5 @@ def adding_to_dennis
 programmer_hash[:dennis_ritchie][:languages] << "Assembly"
   programmer_hash
 end
+
+adding_to_dennis
