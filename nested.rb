@@ -70,7 +70,7 @@ def adding_matz
 end
 programmer_hash
 
-	#programmer_hash = 
+	programmer_hash = 
  		{
         :grace_hopper => {
           :known_for => "COBOL",
